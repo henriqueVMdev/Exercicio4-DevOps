@@ -12,6 +12,8 @@ public class Pet {
     }
 
     void exibirInformacoes(){
+        System.out.println("----------------------------------------------------------");
+
         System.out.println("Nome: "+nome+"\nEspecie: "+ especie+"\nIdade: "+idade+"\nValor do servico: "+ valorServico);
     }
 }
