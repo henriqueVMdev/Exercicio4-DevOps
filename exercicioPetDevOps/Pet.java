@@ -1,3 +1,5 @@
+package exercicioPetDevOps;
+
 public class Pet {
     String nome;
     String especie;

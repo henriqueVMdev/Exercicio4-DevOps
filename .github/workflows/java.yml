@@ -31,8 +31,8 @@ jobs:
 
       # Compila as classes Java
       - name: Compilar
-        run: javac Main.java 
+        run: javac ExercicioPetDevops/*.java
 
       # Executa o programa
       - name: Executar
-        run: java Main
+        run: java ExercicioPetDevops.Main
