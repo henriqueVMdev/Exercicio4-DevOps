@@ -2,7 +2,7 @@ package exercicioCursoDevOps;
 
 public class Main {
 
-    static void main(String[] args){
+    public static void main(String[] args){
         Curso curso1 = new Curso("ADS", "Daniel", 20, 2000);
         curso1.exibirInformacoes();
 
